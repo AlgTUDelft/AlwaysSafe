@@ -10,6 +10,11 @@ tqdm = "*"
 gym = "*"
 cvxpy = "*"
 
+[dev-packages]
+
+[requires]
+python_version = "3"
+
 [packages.gym_factored]
-git = "git://github.com/tdsimao/gym-factored.git"
+git = "git@github.com:tdsimao/gym-factored.git"
 editable = true
